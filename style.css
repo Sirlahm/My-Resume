@@ -51,7 +51,7 @@ a, button {
   text-align: center; }
   .resume__header__details {
     display: flex;
-    justify-content: space-evenly; }
+    justify-content: space-between; }
   .resume__header h1 {
     font-size: 5rem;
     letter-spacing: 1.25rem; }
