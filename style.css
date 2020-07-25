@@ -28,18 +28,23 @@ a, button {
 .padding {
   padding: 5rem 0; }
 
+.center {
+  text-align: center; }
+
+.flexbox {
+  display: flex;
+  justify-content: space-around; }
+
+.margin-top-big {
+  margin-top: 5rem; }
+
 .container {
   width: 112rem;
   max-width: 112rem;
   margin: 0 auto;
   color: #444;
   background-color: white;
-  font-size: 2.7rem; }
-
-.resume__nav {
-  height: 5.5rem;
-  width: 100%;
-  background-color: #444; }
+  font-size: 2.3rem; }
 
 .resume__header {
   padding: 10rem 0 2rem 0;
@@ -85,7 +90,8 @@ a, button {
   font-weight: bold; }
 
 .bold {
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 2.3rem; }
 
 .div-flex {
   display: flex;
@@ -98,3 +104,19 @@ a, button {
     display: block; }
   .div-flex p {
     margin-left: 1rem; }
+
+.language {
+  display: flex;
+  align-items: center; }
+  .language div:not(:last-child) {
+    margin-right: 10rem; }
+
+.cover {
+  display: flex;
+  flex-direction: column; }
+
+.line-height {
+  line-height: 0.9; }
+
+.paragraph-smaller {
+  font-weight: 400; }
