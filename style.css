@@ -16,6 +16,21 @@ body {
   font-weight: 300;
   line-height: 1.6; }
 
+  .body {
+    display: flex;
+    justify-content: space-between;
+  }
+.resume__nav{
+background-color:#444649 ;
+flex: 0 0 17%;
+color: white;
+
+}
+.resume__navhead{
+  background-color:#444649 ;
+  flex: 0 0 17%;
+  border-bottom: 1px solid white;
+  }
 a, button {
   cursor: pointer; }
 
@@ -39,28 +54,26 @@ a, button {
   margin-top: 5rem; }
 
 .container {
-  width: 112rem;
-  max-width: 112rem;
-  margin: 0 auto;
+ padding: 0 4rem;
   color: #444;
   background-color: white;
   font-size: 2.5rem; }
 
 .resume__header {
-  padding: 10rem 0 2rem 0;
-  text-align: center; }
+  flex-grow: 1;
+  margin: 0 4rem;
+  padding: 2rem 0;
+  }
   .resume__header__details {
     display: flex;
     justify-content: space-between; }
   .resume__header h1 {
-    font-size: 5rem;
-    letter-spacing: 1.25rem; }
-  .resume__header .paragraph-big {
     font-size: 3rem;
-    letter-spacing: .3rem;
-    font-weight: 400; }
-  .resume__header p {
-    margin-left: 1.5rem; }
+    letter-spacing: 1rem; }
+  .resume__header .paragraph-big {
+   
+    font-weight: 300; }
+  
 
 .resume__skills__details {
   display: flex;
@@ -83,11 +96,12 @@ a, button {
     flex: 0 0 48%; }
 
 .paragraph-big {
-  font-size: 3rem;
-  letter-spacing: .3rem; }
+  font-size: 2.5rem;
+  }
 
-.paragraph-small {
-  font-weight: bold; }
+.sizeImage{
+  width: 2.8rem!important; 
+}
 
 .bold {
   font-weight: 400;
@@ -120,3 +134,21 @@ a, button {
 
 .paragraph-smaller {
   font-weight: 400; }
+
+  .boder{
+    border-top: 1px solid white;
+  }
+  .util {
+    text-align: right;
+    margin-right: 2rem;
+  }
+  .marg{
+    margin: 0 4rem;
+    padding-bottom: 2rem;
+  }
+  .resume__skill{
+    flex-grow: 1;
+  }
+  .footer{
+    padding: 4rem 0;
+  }
