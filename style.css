@@ -8,6 +8,9 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 50em) {
+    html {
+      font-size: 50%; } }
 
 body {
   position: relative;
@@ -35,7 +38,7 @@ a, button {
   cursor: pointer; }
 
 .margin-top-small {
-  margin-top: 3rem; }
+  margin-top: 2rem; }
 
 .border {
   border-bottom: 1px solid #ccc; }
@@ -57,7 +60,7 @@ a, button {
  padding: 0 4rem;
   color: #444;
   background-color: white;
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 .resume__header {
   flex-grow: 1;
@@ -67,17 +70,23 @@ a, button {
   .resume__header__details {
     display: flex;
     justify-content: space-between; }
+    @media only screen and (max-width: 50em) {
+    .resume__header__details {
+        flex-direction: column; } }
   .resume__header h1 {
     font-size: 3rem;
     letter-spacing: 1rem; }
   .resume__header .paragraph-big {
-   
+   letter-spacing: .5rem;
     font-weight: 300; }
   
 
 .resume__skills__details {
   display: flex;
   flex-wrap: wrap; }
+  @media only screen and (max-width: 50em) {
+    .resume__skills__details {
+        flex-direction: column; } }
   .resume__skills__details div {
     flex: 0 0 20%; }
 
@@ -105,12 +114,15 @@ a, button {
 
 .bold {
   font-weight: 400;
-  font-size: 2.5rem; }
+  font-size: 2.2rem; }
 
 .div-flex {
   display: flex;
   justify-content: flex-start;
   align-items: center; }
+  @media only screen and (max-width: 50em) {
+    .div-flex {
+        margin-bottom: 1.5rem; } }
   .div-flex img {
     width: 4rem;
     height: auto;
@@ -151,4 +163,8 @@ a, button {
   }
   .footer{
     padding: 4rem 0;
+  }
+  .bolld{
+    font-weight: 400;
+    font-size:2rem ;
   }
