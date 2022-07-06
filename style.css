@@ -88,7 +88,8 @@ a, button {
     .resume__skills__details {
         flex-direction: column; } }
   .resume__skills__details div {
-    flex: 0 0 20%; }
+    flex: 0 0 20%;
+  margin-top: 10px; }
 
 .resume__education__divs {
   display: flex;
