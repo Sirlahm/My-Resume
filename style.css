@@ -61,7 +61,9 @@ a, button {
   color: #444;
   background-color: white;
   font-size: 2rem; }
-
+.grow {
+  flex: 1;
+}
 .resume__header {
   flex-grow: 1;
   margin: 0 4rem;
@@ -80,6 +82,7 @@ a, button {
    letter-spacing: .5rem;
     font-weight: 300; }
   
+
 
 .resume__skills__details {
   display: flex;
