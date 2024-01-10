@@ -36,7 +36,10 @@ color: white;
   border-bottom: 1px solid white;
   }
 a, button {
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none;
+
+}
 
 .margin-top-small {
   margin-top: 2rem; }
@@ -72,7 +75,11 @@ a, button {
   }
   .resume__header__details {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  
+  }
     @media only screen and (max-width: 50em) {
     .resume__header__details {
         flex-direction: column; } }
@@ -124,7 +131,10 @@ a, button {
 .div-flex {
   display: flex;
   justify-content: flex-start;
-  align-items: center; }
+  align-items: center; 
+  width: 250px;
+
+}
   @media only screen and (max-width: 50em) {
     .div-flex {
         margin-bottom: 1.5rem; } }
@@ -132,8 +142,9 @@ a, button {
     width: 4rem;
     height: auto;
     background-size: cover;
-    display: block; }
-  .div-flex p {
+    display: block; 
+  }
+  .div-flex p, .div-flex a    {
     margin-left: 1rem; }
 
 .language {
